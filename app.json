@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AI-Artify",
-    "slug": "AI-Artify",
+    "slug": "wallkit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1c1c1c"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,12 +21,19 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#1c1c1c"
+      },
+      "package": "com.vartikanand.AIArtify"
     },
     "web": {
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "23f45bb9-4e57-4b80-8198-8490b506145f"
+      }
+    },
+    "owner": "vartik"
   }
 }

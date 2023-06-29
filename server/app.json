@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "23f45bb9-4e57-4b80-8198-8490b506145f"
+      }
+    },
+    "android": {
+      "package": "com.vartik.wallkit"
+    }
+  }
+}
